@@ -1,0 +1,378 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"    >
+        
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:stretchColumns="*"
+        android:layout_marginTop="50dp" >
+
+        <TableRow
+            android:background="#D1E2F2"
+            android:paddingBottom="3dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_width="match_parent"
+                android:layout_height="match_parent"  
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:id="@+id/textColB"
+                android:text="@string/ColB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"  
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColC"
+                android:text="@string/ColC"
+                android:layout_marginLeft="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"  
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD"
+                android:text="@string/ColD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"  
+                android:width="90dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB1"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC1"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD1"                
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:background="#DEDEDB" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB2"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC2"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD2"
+                android:height="23dp"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:background="#DEDEDB" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB3"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC3"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD3"
+                android:height="23dp"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:background="#DEDEDB" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB4"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC4"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD4"
+                android:background="#DEDEDB"
+                android:paddingLeft="5dp" 
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:height="23dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB5"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC5"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD5"
+                android:background="#DEDEDB"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:height="23dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB6"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:shadowColor="#E0EFFF"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC6"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD6"
+                android:background="#DEDEDB"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:height="23dp"
+                 />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB7"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:shadowColor="#E0EFFF"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC7"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD7"
+                android:background="#DEDEDB"
+                android:height="23dp"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:paddingLeft="5dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB8"
+                android:inputType="numberDecimal"
+                android:shadowColor="#E0EFFF"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC8"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD8"
+                android:background="#DEDEDB"
+                android:height="23dp"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:paddingLeft="5dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB9"
+                android:inputType="numberDecimal"
+                android:shadowColor="#E0EFFF"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC9"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD9"
+                android:background="#DEDEDB"
+                android:paddingLeft="5dp"
+                android:height="23dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"              
+                 />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/valueB10"
+                android:inputType="numberDecimal"
+                android:shadowColor="#E0EFFF"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <EditText
+                android:id="@+id/valueC10"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/textColD10"
+                android:background="#DEDEDB"
+                android:height="23dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"                
+                android:paddingLeft="5dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/editTotalB"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/editTotalC"
+                android:background="#F3EA2F"
+                android:height="23dp"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:width="90dp" />
+
+            <TextView
+                android:id="@+id/editTotalD"
+                android:background="#F9BA37"
+                android:height="23dp"
+                android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:paddingLeft="5dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/tableLayout1"
+        android:layout_alignParentTop="true"
+        android:text="@string/temp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/tableLayout1"
+        android:layout_alignTop="@+id/buttonOk"
+        android:onClick="LimpiarCampos"
+        android:text="@string/Limpiar" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="40dp"
+        android:layout_width="70dp"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toLeftOf="@+id/buttonCancel"
+        android:onClick="calcularImporte"
+        android:text="@string/Calcolare" />
+
+    <EditText
+        android:id="@+id/editTemp"
+        android:layout_height="40dp"
+        android:layout_width="70dp"
+        android:layout_alignBottom="@+id/buttonOk"
+        android:layout_toLeftOf="@+id/buttonOk"
+        android:ems="10"
+        android:inputType="number"
+        android:text="20" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
+</ScrollView>

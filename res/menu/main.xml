@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemCalculo" android:title="@string/Calcolare" 
+        android:showAsAction="always"
+        android:icon="@drawable/ic_calc"
+        
+        android:visible="false"></item>
+    <item android:id="@+id/itemLimpiar" android:title="@string/Limpiar"
+        android:icon="@drawable/ic_limpiar"
+        android:showAsAction="always"
+       
+        android:visible="false"></item>
+          
+</menu>

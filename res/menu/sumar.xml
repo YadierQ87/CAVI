@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemCalcular" android:title="@string/Calcolare"
+        android:onClick="calcularImporte"
+        ></item>
+    <item android:id="@+id/itemLimpiar"
+        android:title="@string/Limpiar"
+        android:onClick="LimpiarCampos"
+        ></item>
+</menu>
